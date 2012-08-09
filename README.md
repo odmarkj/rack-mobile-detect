@@ -1,3 +1,10 @@
+Fork Note
+========
+
+Tablet detection was removed since it is performed by the mobile-fu fork that is dependent on this project.
+
+[mobile-fu](https://github.com/odmarkj/mobile-fu)
+
 Install
 =======
 
