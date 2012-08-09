@@ -109,7 +109,7 @@ module Rack
       # captured. Captured tokens are passed through in the
       # environment variable. These are special mobile devices that
       # may have special rendering capabilities for you to target.
-      @regex_ua_targeted = options[:targeted] || /iphone|android|ipod|ipad/i
+      @regex_ua_targeted = options[:targeted] || /iphone|android|ipod/i
 
       # Match mobile content in Accept header:
       # http://www.developershome.com/wap/detection/detection.asp?page=httpHeaders
@@ -122,7 +122,7 @@ module Rack
                    'x320|x240|j2me|sgh|portable|sprint|docomo|kddi|softbank|android|mmp|' +
                    'pdxgw|netfront|xiino|vodafone|portalmmm|sagem|mot-|sie-|ipod|up\\.b|' +
                    'webos|amoi|novarra|cdm|alcatel|pocket|iphone|mobileexplorer|' +
-                   'mobile', true)
+                   'mobile|opera mini|series60|series 60|hiptop|avantgo|blazer|elaine|iris|opera mobi|iemobile', true)
 
       # A URL that specifies a single redirect-url for any device
       @redirect_to = options[:redirect_to]

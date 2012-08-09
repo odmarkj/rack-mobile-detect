@@ -5,6 +5,10 @@ Tablet detection was removed since it is performed by the mobile-fu fork that is
 
 [mobile-fu](https://github.com/odmarkj/mobile-fu)
 
+Dozens of additional smart phones were also added to the detection regex.
+
+Plan for the future is to also detect feature phones with their own custom response format.
+
 Install
 =======
 
